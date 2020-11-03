@@ -16,3 +16,8 @@
 
 # 별찍기
 > - https://www.acmicpc.net/workbook/view/20
+
+
+## Day 2 
+
+# 개별 공부 
