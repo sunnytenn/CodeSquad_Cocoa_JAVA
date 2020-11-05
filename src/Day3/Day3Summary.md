@@ -7,6 +7,10 @@
 https://mainia.tistory.com/5574
 
 #### 프로그래머스 강의 배열, 클래스, 메소드 
+###### 배열
+배열 순서들 정리 
+http://tcpschool.com/java/java_array_twoDimensional
+
 ###### 참조
 new -생성자 클래스를 메모리에 올려주기 인스턴스 
 
@@ -34,3 +38,5 @@ http://taewan.kim/tip/argument_parameter/
 
 #### scanner 활용 
 https://maktooob.tistory.com/17
+
+

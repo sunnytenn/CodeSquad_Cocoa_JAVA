@@ -1,13 +1,16 @@
 package Day3;
 //        pieceyear.equals("0")
 import java.util.Scanner;
-    public class Indian_re {
+    public class IndianRe {
         public static void main(String[] args) {
             Scanner sc = new Scanner(System.in);
             System.out.println("생년월일을 입력해 주세요>");
             String birthyeardate = sc.nextLine();
             sc.close();
             int pieceyear = Integer.parseInt(birthyeardate.substring(3,4));
+//            string 으로받아서 각각을 int로하기 위치에 해당하는 애들만 하고 싶다... int로 받아서 하는 것 ...! 다양한 경우에서 할 수 있다.
+//            뛰어쓰기로 구분자 체크 > 각각의 값이 년도월일로 나뉘어진걸 년 stirng을 정수형으로 바꿔줘서 logic 처리하게끔
+//            자리수로 자르지않고 마이너스에서 끝자리만 받기 -1 기준으로 핵
             int piecemonth = Integer.parseInt(birthyeardate.substring(4,6));
             int piecedate = Integer.parseInt(birthyeardate.substring(6, 8));
             piecemonth--;
@@ -22,3 +25,5 @@ import java.util.Scanner;
 
         }
     }
+// return 으로 짜서 나눠서 모아서 출력하는게 있는게 좋다.
+// method 이름은 동사가 좋다 명사가 아니라.
