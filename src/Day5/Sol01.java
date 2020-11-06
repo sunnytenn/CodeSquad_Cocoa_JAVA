@@ -1,4 +1,5 @@
 package Day5;
+//백준 1000번 풀기
 import java.util.Scanner;
 public class Sol01 {
     public static void main(String[] args) {
