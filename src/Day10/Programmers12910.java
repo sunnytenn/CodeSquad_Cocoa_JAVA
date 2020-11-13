@@ -4,7 +4,7 @@ import java.util.Arrays;
 
 import java.util.*;
 
-class Programmer01 {
+class Programmers12910 {
     public int[] solution(int[] arr, int divisor) {
         int[] answer ={};
         ArrayList<Integer> a1 = new ArrayList<>();

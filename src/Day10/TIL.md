@@ -34,3 +34,7 @@ ArrayList<Integer> arrayList = new ArrayList<>();
 
 ###what is 컬렉션 프레임 워크 
 배열의 비효율적 문제(크기가 고정된다는 점, 더 넓은 메모리 저장 불가하다는 점)
+
+
+#### for each 
+처음부터 끝까지 탐색하기 위해서는 
